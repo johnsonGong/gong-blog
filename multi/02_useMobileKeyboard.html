@@ -9,14 +9,15 @@
 	    <p>需求: 1. 捕获(软)键盘的 回车事件; 2. 在(软)键盘上呈现 "搜索"文字</p>
 	    
 	    <div>
-	    <span> input-text </span>
-	    <input type="text" placeholder="no.1: text" />
+	        <span> input-text </span>
+	        <input type="text" placeholder="no.1: text" />
 	    </div>
 	    
         <div>
-        <span> input-search </span>
-        <input type="search" placeholder="no.2: search" />
+            <span> input-search </span> <span style="color: green;">you press:</span><span id="press_key"></span>
+            <input id="search_main" type="search" placeholder="no.2: search" />
         </div>
 	    
+	    <script type="text/javascript" src="../js/02_useMoblieKeyboard.js" ></script>
 	</body>
 </html>
