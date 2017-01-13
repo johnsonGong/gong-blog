@@ -1,7 +1,9 @@
-console.log("use echartJS !");
-
-;
-(function(window) {
+/**
+ * 使用 echartJS.
+ * 
+ * @author gonglong 20170113
+ **/
+;(function(window) {
 
     initChartBar();
     
