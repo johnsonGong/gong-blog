@@ -46,7 +46,7 @@
         myChart_02.showLoading();
 //         $.get('./data/les-miserables.gexf', function(xml) {
            // $.get('http://127.0.0.1:8020/person/data/mock.gallery.json ', function(xml) {
-           $.get('/person/data/mock.gallery.json?t=1 ', function(xml) {
+           $.get(location.origin + '/person/data/mock.gallery.json', function(xml) {
             myChart_02.hideLoading();
 
             // var graph = echarts.dataTool.gexf.parse(xml);
